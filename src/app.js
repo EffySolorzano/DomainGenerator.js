@@ -16,7 +16,7 @@ let dom = [".com", ".us", ".org", ".net"];
 
 const execute = () => {
   let results = document.getElementById("resultados-dominios");
-  results.innerHTML = ""; // clear the previous results
+  results.innerHTML = "";
 
   for (let i = 0; i < pronoun.length; i++) {
     for (let j = 0; j < adj.length; j++) {
